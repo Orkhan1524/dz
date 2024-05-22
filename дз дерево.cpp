@@ -8,7 +8,7 @@ private:
         int data;
         Node* left;
         Node* right;
-        Node* parent; // опционально
+        Node* parent;
 
         Node(int value, Node* parent = nullptr) : data(value), left(nullptr), right(nullptr), parent(parent) {}
     };
